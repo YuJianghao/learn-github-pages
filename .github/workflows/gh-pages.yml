@@ -25,7 +25,7 @@ jobs:
           version: 6.0.2
 
       - name: Install Dependences
-        run: pnpm ci
+        run: pnpm install --frozen-lockfile
 
       - name: Build
         run: pnpm docs:build
