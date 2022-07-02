@@ -1,3 +1,3 @@
 export default {
-  base: "learn-github-pages"
+  base: "/learn-github-pages/"
 }
